@@ -21,29 +21,19 @@ int main(){
   server_address.sin_port = htons(9999);
   server_address.sin_addr.s_addr=INADDR_ANY;
   
-   
-  
-    // connect to the server
-    int connection_status = connect(network_socket, (struct sockaddr *) & server_address, sizeof(server_address));
-    //check for connection_status
-    if(connection_status==-1){
-      printf("The connection has error\n\n");
-    }
+  // keep establishing connection and send messages to server
+  while(1) {
+    // send the user input to server
+    // printf("Sending stuff");
+    connect(network_socket, (struct sockaddr *) & server_address, sizeof(server_address));
+    // send(network_socket, string, sizeof(string), 0);
+    //receive data from the server
+    // char response[256];
+    // recv(network_socket, &response, sizeof(response), 0);
     
-    if(connection_status==0){
-      while(1) {
-        // send the user input to server
-        // printf("Sending stuff");
-        send(network_socket, string, sizeof(string), 0);
-      }
-    
-      //receive data from the server
-      // char response[256];
-      // recv(network_socket, &response, sizeof(response), 0);
-    
-      //print out the server's response
-      // printf("Here is the message from the server: %s\n\n", response);
-    }
+    //print out the server's response
+    // printf("Here is the message from the server: %s\n\n", response);
+  }
 
   //close the socket
   close(network_socket);
