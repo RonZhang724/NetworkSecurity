@@ -21,18 +21,9 @@ int main(){
   server_address.sin_port = htons(9999);
   server_address.sin_addr.s_addr=INADDR_ANY;
   
-  // keep establishing connection and send messages to server
+  // keep establishing connection to the server to keep sending SYN handshake requests
   while(1) {
-    // send the user input to server
-    // printf("Sending stuff");
     connect(network_socket, (struct sockaddr *) & server_address, sizeof(server_address));
-    // send(network_socket, string, sizeof(string), 0);
-    //receive data from the server
-    // char response[256];
-    // recv(network_socket, &response, sizeof(response), 0);
-    
-    //print out the server's response
-    // printf("Here is the message from the server: %s\n\n", response);
   }
 
   //close the socket
