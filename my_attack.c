@@ -6,7 +6,6 @@
 #include <sys/types.h>
 #include <sys/socket.h>
 #include <netinet/in.h>
-#define PORT 8080
 
 int main(){
   char string[1000] = "attack_string";
