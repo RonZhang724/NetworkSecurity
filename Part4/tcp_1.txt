@@ -1,0 +1,128 @@
+GET /service/site/search.aspx?query=google HTTP/1.1
+Host: www.baiwanzhan.com
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Referer: http://www.baiwanzhan.com/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+Cookie: __jsluid_h=69604a1b1e101f8d99e97deb7849002b; ASP.NET_SessionId=ajzzdt452jaco445yzbviwer
+
+HTTP/1.1 200 OK
+Date: Sat, 14 Sep 2019 20:19:05 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Cache-Control: private
+X-AspNet-Version: 2.0.50727
+Content-Encoding: gzip
+X-Via-JSL: 326ba5d,-
+X-Cache: bypass
+
+1d36
+...........]yS.I..{;..C.&z.1.RI $..h.LO.....gfwbBQB.$[..:...F...0g...W...v....9#....$.._a./..T.%.AG.:...*_.|...we....?:.......O.f...W..9..Q..&......c..............Sr"........./\.+..$.....p...]ME......%Qc..-ck....]..~..z...'.=.p.@ ......".{.....T3.6..l.T...<.U....LJ....\(.L.+..N....K..k.A*r2Y......tR.u.QF2"
+..0..Si%............O..PR..Bq;...z...q9.|....gb.....KDU#qEh...[..K.g...y.}o..rQ.[....t.y..x,qRH)....2..J:.(.....=...@:...)e...!96,'.D.D..:$z..7^...X.......@G....@*......O...KH....}"-.....!5.~"....y.}.!3.....)!...a..
+...)'.N".....u.@...?~.[]..}.......}.......[....w...3m.&^/<...}.7.m..?..0~........h..sk.~..e...
+%...<...VSaL.%(.6..$u....>M...SB,..Q....
+...&.t. ..!.........W#..0.!5....^P..M...,...-.p..V....|..D(.<..N.	.<.fbI..h.;..@..T{...)C!%%..H,M..tr.$... #PH.......s
+.3O........hnuB....nQ&....B.....0.......+..U4|....Ois3........_...]6F...."...^....1.Hl.%....h.K.B..X$
+.'I.A..".qK...[}.m.'N.@-.[.r..cS..........kD...M....CJ{..<.1......U.V|t.\`.....:.....KP.....I0e4.nO..k.)Q.TLM..dS.....A9.....L...@.a...1o.....r.i9p.$VI..:....x.kG.........m.C....-.W..n.V........DX.n.....t...0.RSX.v.....,..
+.h9..g.[...ul@.....R.	>.'...'.........#/ga.B.gN..\.|....k.P..)...MmGZPIU*5S..B..1.h..).4.....?.	....Ta.....CC@X.rrv.{L.@.6z.|...2+.+
+.-..c}.....GDt....v.Z.
+..	..*..
+B.W...P..P+..l...#19q:.5@.X}.K...F..'..K.z.OM.ya...u.x.g.....9.......w#.'...#.tPr$U.]G
+.qw6^....c.....d.dm...$I.....WW..Y>........[.0?`............I.......a.........%I....~...Q#.x.&..P..\..O..w...l;	d.1.[UF!&2(Yja]5.E>.-..M..E..f_T...............t..6.D.x..........)0D!..la.uS`ha.m^).....5..E.<T....,.5M.....a9cj..h"......l.z:..UO....{....K.[._?{....N...JW.....=\9..=/.NSP...%m..]...U.H}..H..7..@+.Y<V......T=....N...~..(-#.(m.I.~....V......&8.5S..r.)..t..5...Atk..plPND...`xpW.e.....<....>......S..k]....siS7rk?5..~/.
+..I.M....O'.:0...K...X.t..s.}...>.}.../Mkk.+...N.[c.o.V....g........Un.:-5v.7........i.A...h...6.=..... .y...5x.>(...}...c...b.I
+..jS..w.H.s.j..$..\#}qM...4..\...{.. ...>_...@...^h._.<.. .N.~.....K.....8.....$#3........
+...~U'.N..,..^..
+.;......=..V.
+.@...h.....6Wr.ok..1..&
+..CI..".%.O.B..
+..<..#C.E..9......X.q
+.).1...?.A..Bb...].e....p ..ja...*b....De..G?G.........@(.U....g..k.<.zh.9.69...........	f$...A.L..D....._.77.k..
+.........&.;....D:.>S..V...._....5....oo....N.../x$S..../.3.!...x7."......J.x.8zK...T.....{..Xae}.1...F.;...|'.
+r_}k...E+.j_V.ot...%.e..I.P...1V0...O-#=..CL..6y.`~....D[]..=...
+}r...#..I)JB.'.....%.......6]. ..	..!..!.!.....d..k P..QR.b...A.$...J..*a#.....mV=...#
+..m.).F..i..q..../...R...K.S1.2...)#.d..lM...}m_...X.....f...a.9[.@RM"M...#kh..9.!%..LSA....G..6t.=......$.7(.c..;06......q.6(..x.AwN3	...rB....v..9.K.,.	.[.|@.AO...|...6.a.I..........H1.......O].............fe...[(8.._./...;JKC.<.fqG,.....)2.
+....7...y...n#D1..=....Y 	3..l...2..M....X.h..<k[!.....I.(..!I.0.DH...........2...Z...Q.!./....G.....|`V+...TP&.X..[.......;....u...wP.......v..,...g...&....eS.[;.......5.7.....;c.C; ..`.#.k..."..DI.{SG.....
+......Z..|..........K.x...t......v...76Y..;d...6FJ...	..Wb.wws[...y..Z.J.x.N....|.c....,..F...P.iG{..4...\.
+j....&.TD+..6.B.D...............95.Ee.....V..6...Wi.....I,...kI.n..*....`^...y......4v....,..N(l]A../...&..w...t.............pJ......}..,6..
+.8....!...l.ZZP_.&...z\..+^...@..G...Ry`',(....i*..e........).a..3#.D..4.t.B...I.......Yg......sow&....IE\..	..C.,WZY....T.bbR...U..\B.g.".8..,j.z\..8Wo:..c.BY0j.l5....."./.qW....s...8.~,7.+...^y/.....e...Jz7.h.......2
+{..q]Bz...&..X5g....j.2 dk.H.6....|...*..,i&.....*:...{.[.n.....0...L...RA>Jq.......8...`<..%t.E.5(....a.g.\p..x.2...kl........,....3.7VMlL\...n.=.J|.7.afO..D..H?.B5.8..`.G.[.z..N	......|}...GxI5w..(...yn..9..s}..
+i...q.h....5./.T.F\...n.....r..Q..........W..B..S..k/(b4~. .5...N.....[..Q..;..-..6l`.ys.'.....wh.#j..B?.....X!...w.|..T.k...!l.a.......F..2"F%O.%......?e.0X!I..e...1.=}SnRIn.K.r`..&#....,.d.e....?..../.V.8.
+C.......c*..NRm.W.D...S.C....}.R...."..wN$w...	$..=4...&...Z..Z..8.na..J.].'SA..AUp.1q..f.f.`."..9.....X.B....z..:......w.u.....1.+6[6~#>5.......7...B.....L..OPa..#........(^......x.)C...<.n\B....0u^......;(.....}..vi
+..................4!.<.Yx..._~z.O.q.lUD..<-^......M...0&..P..G.@."...k./....0.....sF.......D..)..Z{......zF....(.~1.~9.......R0\..p..r.gg\...%W....t....n.D..}Y...L2.Aq.f......r........E......{.m... .s....'..9...+X?L.s.38....c. ...Rd-..5.jssc.T..U"{.s....G.....3...f`A."J....+..'......>.......l.e.l$......2.[[.j. ....D..Z..s.e..._....t.q0D.L..<........bk..m#.....N.W.j7G.+?........M........!........@.OAA(,._6..q.....H...H.@s$4.,...P...^....h..~...N..H........-..$8K...O@7..>..w@j...+3..P.....I....S.@..x..B<..Mi....7.....W...<B.........?..U....?..XU.3..}....Y.q..)..B.'.....m........$....:/...@...;+'H`....s...u11.r.o^AfO[..*U....n.c.H5..%.a9M:;..I...&n.....`l...*^b...btYN..c..~..........y..
+..........V.....Xh.u/..	t4KA..r
+z...I.....~o..oA..t.FB..Ym...b.....V....l#.IS\ft_A#.~...U....I..i/_..7...~s....-.....,....u.:}R......F..
+.........)..(V.x.&..)TPf:;..
+?.."V....!........_... ~e!_...*(..J.r..`...>3}.8..-6;....x...~......(......y..M......	........`@t.x.
+..v.:.@.0.a...[....E.J...Q.M.......r...4.zI...~Q.m..B)...z...p
+......
+.N~y...u...]n?[.
+go!.e...........'...k'...j.{d.Z'.].>..F..>.....-mj...]...3.M...O.C.(.b)N.x.Ians.F.
+..(.k......t.)h.u.Ji...........).}..e.....-`.#...."o.ohw..;x.L....k..M..K.:..m.._zRX9...6.z..9$....NX..if..YE..]~(...>}C{.J......iU..Y.....l..6.....b.z.......s.@...........jz.....&%............W....(..l.$.:!ER..j
+..n.3..h.q&...biU....\.f.m.	|..t...n...6.8a...o....6.d.........tN.....>..!*.g.B....!.vG(".x"....FL..|E9........s.....
+!.SCf..{Q./u.	...=P3...\.7......].YW.6...S.ID.O.M.P,....6...@.g.....?.U......,D....B<..c......B...&.[OpN+.`8Ng.	0:UG...{..F"........._.	..m\...<.J.....K..Y..p.*8..".$+'wO...h|8.%...*.....i.Y.'.%...I......t..|..t...N.........f....7y....2..@U..........k.P7...e.E.E.o.&..e......|$...!Tf..u>{....4...o..g.H.mqwbk.LD.	k[ay...:}........W.@.....[.........>..{..O...A&y..x..1...N.=....".vi>?1U..i...ceCv.
+..7.a.!..`.!c.l....X..t.Az_.1..Rx..A.....d.........A|h.k~.	.y.I.@.Q.l:.....F...F.|.38Kk~.B~..mV.{.A....~.1p....=|.O. k..~[.9..m.a<R@...pT5..
+.C..C..w!......f.O..DM(..."...I8...E......k(I*M........0.K...6}..R...**g.........vi.7..7.....z....C^h...9.u..~s
+&........X.6......6...56K..*j@..k[Y..Y.t..}.....S...9...^GQS...\._0........O..8...F..8.....o.....~.....c....._O....??...'..1s.7.....c...s8..J.W$s.,TP.X.6..}...'._~..-....O..;zT:..cFOF\.....iF..6g%.tw.C.........Ax..t.....%+....Uq..W...........u..W.. B...m......l..%]:vln?.
+/....&;..E5..u.7G....R
+;..j.L4...S...S...G-3v.B.p..bRNe.J*ml
+......r...1.K......."sO..`.jITO.=Q......d....K.*lt..p...a.."../W...9.VY......u..i...=.B.F.J.n.....OY.j.P........KW...8...~....AEeU.x....x/m...!wFi.17......x.p..{.
+.i[G]..i?....ug.N.P....T.K;..4"..j	.........4.>...6@.bLk....Q...x.G...................r*.?M.......%...Tier.	...(.W..5.*.n....;.f.....P....>.ow....	.(..-.rX.O..wp|.(.p.....5.......).D.6..r5&'+CCH.B.c...859(.....-p$..6.c;.l.....f..Fi..:q.z.. ..V....I[^...HW"...	%(...p zZ....=..ey...N.`...".L..,.7&.PD..a98.................P....._.I.D7.1..MD.SpWA.=.....ne..l...Jw\....f...J'..G`_.......)...V.q.~yc;.u8.....{..U.x#.qn..2.......m.uL.....i.Z....3^..|l.c<..xl.....U....X....{.....o.i.&...)l..;...|...}N{O.)a q.L..d..5.......^..\BO..V.....i7w......~/...7....2.....>.8l..f..g....9...>..5............z%....h.....H..+c...Z\..*....J{.v...\....&?..!...{.....G.
+q..!R..>...%+.M.f..G..:`.<k....u0.`..........J.....R
+6......Lk.o..+........o..d.......O.f...'.-F..#m..;;...#........V...u.o...
+..0....jXi.%..7sD........4.......$..c.h~........drN..h..
+0
+
+GET /2020img/index/h12_ico.gif HTTP/1.1
+Host: www.baiwanzhan.com
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://www.baiwanzhan.com/service/site/search.aspx?query=google
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+Cookie: __jsluid_h=69604a1b1e101f8d99e97deb7849002b; ASP.NET_SessionId=ajzzdt452jaco445yzbviwer
+
+HTTP/1.1 200 OK
+Date: Sat, 14 Sep 2019 20:19:06 GMT
+Content-Type: image/gif
+Content-Length: 416
+Connection: keep-alive
+Content-Location: http://www.baiwanzhan.com/2020img/index/h12_ico.gif
+Last-Modified: Sun, 05 Jun 2011 14:44:10 GMT
+Accept-Ranges: bytes
+ETag: "e681c978f23cc1:f87"
+X-Via-JSL: 326ba5d,-
+X-Cache: bypass
+
+GIF89a........p.'......O....
+Q.G.....!..NETSCAPE2.0.....!...2...,..........Dx.....9..X.<..A....x.....z.0.1.....B.....$..P...8...'..D.$M...beh....!.......,...........xD...!.......,......
+....x.....y.....'w....!.......,....	......8.w.d1....YV..^.i..$.!..	....,....
+......x.K..H7..@.3..[d)_........O..!.......,..........<x...0:B.\.........`.........
+......p..:^....`B...kJH...B.Z.	.!.......,...........(*....x...F.X>	.;GET /2020img/ico/top04_r.gif HTTP/1.1
+Host: www.baiwanzhan.com
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://www.baiwanzhan.com/2020css/mainv08.css
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+Cookie: __jsluid_h=69604a1b1e101f8d99e97deb7849002b; ASP.NET_SessionId=ajzzdt452jaco445yzbviwer
+
+HTTP/1.1 200 OK
+Date: Sat, 14 Sep 2019 20:19:09 GMT
+Content-Type: image/gif
+Content-Length: 311
+Connection: keep-alive
+Content-Location: http://www.baiwanzhan.com/2020img/ico/top04_r.gif
+Last-Modified: Mon, 26 Jun 2000 05:04:44 GMT
+Accept-Ranges: bytes
+ETag: "0fea7a2cdfbf1:f87"
+X-Via-JSL: 326ba5d,-
+X-Cache: bypass
+
+GIF89a......................................................................................................................R~.S}.U|.U|.U{.S}.Q}.S}.S|.S|.R|.R}.R}.R|.R{.Uz.T{...............................!.....6.,..........T.@kHd.Y.Xf.l.T..t..I...g.).:`...*.f3..`9,$p.K.......t......44y.....55...++..&.(....A.;
