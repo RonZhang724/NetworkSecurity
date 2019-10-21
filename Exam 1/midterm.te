@@ -1,0 +1,18 @@
+policy_module(bank, 1.0.0)
+type bank_exec_t;
+type bank_admin_t;
+type bank_balance_t;
+init_daemon_domain(bank_admin_t, bank_exec_t)
+files_type(bank_balance_t)
+require {
+    type bank_admin_t;
+    type bank_balance_t;
+    type user_home_t;
+    class file { create execute open read write getattr };
+    class dir { add_name search write create remove_name getattr };
+}
+type_transition initrc_t bank_exec_t:file bank_exec_t;
+allow user_home_t bank_balance_t:dir { read getattr };
+allow bank_admin_t bank_balance_t:file { read write delete create getattr };
+allow bank_admin_t bank_balance_t:dir { create getattr };
+allow user_home_t user_home_t:dir { create open read write getattr };

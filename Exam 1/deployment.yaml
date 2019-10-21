@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: rabbitmq-deployment
+spec:
+  replicas: 5
+  selector:
+    matchLabels:
+      app: rabbit
+  template:
+    metadata:
+      labels:
+        app: rabbit
+    spec:
+      containers:
+        - name: rabbitmq
+          image: rabbitmq:3-management
+          resources:
+            limits:
+              cpu: 125m
+              memory: 300Mi
+            requests:
+              cpu: 50m
+              memory: 150Mi
+          ports:
+            - containerPort: 15672
