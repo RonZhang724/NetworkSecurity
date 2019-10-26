@@ -152,13 +152,13 @@ October 22, 2019
 
 9. The CVSSV@ score of the exploit is 10 because it allows user to execute arbitrary code via authorization header in an HTTP request. This is really critical therefore it is assigned a score of 10 and should be fixed immediately
 
-10. classndmeterpreter
+10. victimbox/class
 
 11. C:\Program Files
 
-12. ?
+12. ?  `systeminfo` 6.1.7601 Service Pack 1 Build 7601
 
-13. ? Not sure which one of the followinf command we are looking for
+13. ? Not sure which one of the following process we are looking for
 
     ```
      PID   PPID  Name               Arch  Session  User             Path
