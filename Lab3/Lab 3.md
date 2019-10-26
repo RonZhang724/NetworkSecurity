@@ -156,87 +156,13 @@ October 22, 2019
 
 11. C:\Program Files
 
-12. ?  `systeminfo` 6.1.7601 Service Pack 1 Build 7601
+12. `systeminfo` 6.1.7601 Service Pack 1 Build 7601
 
-13. ? Not sure which one of the following process we are looking for
+13. `fdmwi.exe` and `1284`
 
-    ```
-     PID   PPID  Name               Arch  Session  User             Path
-     ---   ----  ----               ----  -------  ----             ----
-     0     0     [System Process]                                   
-     4     0     System                                             
-     100   480   SearchIndexer.exe                                  
-     264   4     smss.exe                                           
-     340   332   csrss.exe                                          
-     348   1616  explorer.exe       x86   1        victimbox\class  C:\Windows\Explorer.EXE
-     388   332   wininit.exe                                        
-     396   380   csrss.exe                                          
-     436   380   winlogon.exe                                       
-     480   388   services.exe                                       
-     488   388   lsass.exe                                          
-     496   388   lsm.exe                                            
-     600   480   svchost.exe                                        
-     664   480   VBoxService.exe                                    
-     720   480   svchost.exe                                        
-     768   348   vulnserver.exe     x86   1        victimbox\class  C:\Users\class\Downloads\vulnserver-master\vulnserver.exe
-     772   480   svchost.exe                                        
-     880   480   svchost.exe                                        
-     896   880   dwm.exe            x86   1        victimbox\class  C:\Windows\system32\Dwm.exe
-     932   480   svchost.exe                                        
-     1052  480   sppsvc.exe                                         
-     1132  480   svchost.exe                                        
-     1228  480   svchost.exe                                        
-     1312  480   spoolsv.exe                                        
-     1348  480   svchost.exe                                        
-     1384  480   svchost.exe                                        
-     1436  480   svchost.exe                                        
-     1500  480   taskhost.exe       x86   1        victimbox\class  C:\Windows\system32\taskhost.exe
-     1568  348   VBoxTray.exe       x86   1        victimbox\class  C:\Windows\System32\VBoxTray.exe
-     2084  348   cmd.exe            x86   1        victimbox\class  C:\Windows\system32\cmd.exe
-     2408  396   conhost.exe        x86   1        victimbox\class  C:\Windows\system32\conhost.exe
-     2816  396   conhost.exe        x86   1        victimbox\class  C:\Windows\system32\conhost.exe
-     3172  348   fdm.exe            x86   1        victimbox\class  C:\Program Files\Free Download Manager\fdm.exe
-     3776  348   fdmwi.exe          x86   1        victimbox\class  C:\Program Files\Free Download Manager\fdmwi.exe
-    
-    ```
+    ` 1284  2000  fdmwi.exe          x86   1        victimbox\class  C:\Program Files\Free Download Manager\fdmwi.exe`
 
-14. ? The victim has three network interfaces. The one we connected to is ?
-
-    ```
-    classndmeterpreter > ipconfig
-    
-    Interface  1
-    ============
-    Name         : Software Loopback Interface 1
-    Hardware MAC : 00:00:00:00:00:00
-    MTU          : 4294967295
-    IPv4 Address : 127.0.0.1
-    IPv4 Netmask : 255.0.0.0
-    IPv6 Address : ::1
-    IPv6 Netmask : ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff
-    
-    
-    Interface 11
-    ============
-    Name         : Intel(R) PRO/1000 MT Desktop Adapter
-    Hardware MAC : 08:00:27:5e:db:16
-    MTU          : 1500
-    IPv4 Address : 10.0.2.4
-    IPv4 Netmask : 255.255.255.0
-    IPv6 Address : fe80::8806:78e8:ec00:bdba
-    IPv6 Netmask : ffff:ffff:ffff:ffff::
-    
-    
-    Interface 12
-    ============
-    Name         : Microsoft ISATAP Adapter
-    Hardware MAC : 00:00:00:00:00:00
-    MTU          : 1280
-    IPv6 Address : fe80::5efe:a00:204
-    IPv6 Netmask : ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff
-    
-    
-    ```
+14. The victim has three network interfaces. The one we connected to is Intel(R) PRO/1000 MT Desktop Adapter. The Hardware MAC of this interface is : 08:00:27:5e:db:16, and the ip of this interface is 10.0.2.4
 
 15. `[-] priv_elevate_getsystem: Operation failed: Access is denied. The following was attempted:
     [-] Named Pipe Impersonation (In Memory/Admin)
@@ -244,6 +170,18 @@ October 22, 2019
     [-] Token Duplication (In Memory/Admin)`
 
 16. `[-] stdapi_fs_chdir: Operation failed: Access is denied.`
+
+17. Current user is `NT AUTHORITY\SYSTEM `
+
+18. `exploit/windows/local/ms13_053_schlamperei` is the exploit that I used to get the admin access.
+
+19. Use `getpid` got me the current process id, and by doing `ps` I was able to find process name and pid, which are: `winlogon.exe` and `432` . The `winlogon.exe` is responsible for loading the user profile into the registry when login in. Therefore, satying in this process should affect other code execution because we alreaday passed the login step.
+
+20. From this hash I got from the exploit `admin:1001:aad3b435b51404eeaad3b435b51404ee:7c098297bf993415889aad26435bb9cc:::`, I extracted the NTLM hash `7c098297bf993415889aad26435bb9cc` and feed it into the online NTML decoder, it returned the following password: `iloveponies`
+
+21. `iloveponies`
+
+22. `i love lutefisk`
 
 
 
